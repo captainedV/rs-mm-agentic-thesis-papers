@@ -1,0 +1,1711 @@
+{
+  "generated_at": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "source_handoff": "/workspace/handoffs/eo_agentic_ms_literature_2026-11-10.md",
+  "policy": "Authoritative paper list is the handoff. No extra papers added. Venue upgrades mentioned only in arXiv comments are noted and not treated as independently re-verified proceedings pages.",
+  "counts": {
+    "papers_in_catalog": 61,
+    "pdfs_packed": 57,
+    "missing_oa_pdf": [
+      "expertsrs",
+      "skymoe",
+      "spext",
+      "rs-llava"
+    ]
+  },
+  "withdrawn_or_do_not_cite_as_accepted": [
+    {
+      "title": "GeoAssistant",
+      "note": "OpenReview https://openreview.net/forum?id=xvRpSz6rr6 ；交接清单写明 ICLR 2026 已撤稿，不以录用论文引用。"
+    },
+    {
+      "title": "ThinkGeo ICLR 2026 submission",
+      "note": "OpenReview 显示已撤稿；本目录只保留 arXiv:2505.23752 预印本，不以 ICLR 或 CVPR 主会计。"
+    }
+  ],
+  "papers": [
+    {
+      "id": "earth-agent",
+      "section": "B",
+      "title": "Earth-Agent: Unlocking the Full Landscape of Earth Observation with Agents",
+      "authors_short": "Feng, Lv, Ye, et al.",
+      "year": 2026,
+      "venue": "ICLR 2026",
+      "venue_status": "accepted",
+      "arxiv": "2509.23141",
+      "pdf_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/5b4a459db23e6db9be2a128380953d96-Paper-Conference.pdf",
+        "https://arxiv.org/abs/2509.23141",
+        "https://arxiv.org/pdf/2509.23141"
+      ],
+      "local_pdf": "pdfs/2026-ICLR-Earth-Agent-Feng.pdf",
+      "code": "https://github.com/opendatalab/Earth-Agent",
+      "project": null,
+      "datasets": [
+        "Earth-Bench"
+      ],
+      "themes": [
+        "RS-Agent",
+        "tool use",
+        "MCP",
+        "multi-sensor fusion",
+        "benchmark"
+      ],
+      "summary_zh": "将 RGB 与光谱/产品统一进 MCP 工具生态（摘要称 104 个工具、五类工具包），以 ReAct 做多步定量时空推理，并提出同时评估轨迹与最终结果的 Earth-Bench（248 题、13,729 图）。公开实验强调工具选对并不等于参数与轨迹正确。对航天定量遥感，光谱/产品子集比纯 RGB 更接近真实业务。代码与数据已开源。",
+      "oa_pdf": true,
+      "pdf_bytes": 13513347
+    },
+    {
+      "id": "geommagent",
+      "section": "B",
+      "title": "GeoMMBench and GeoMMAgent: Toward Expert-Level Multimodal Intelligence in Geoscience and Remote Sensing",
+      "authors_short": "Xiao, Cheng, Xu, et al.",
+      "year": 2026,
+      "venue": "CVPR 2026",
+      "venue_status": "accepted",
+      "arxiv": "2604.08896",
+      "pdf_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2026/papers/Xiao_GeoMMBench_and_GeoMMAgent_Toward_Expert-Level_Multimodal_Intelligence_in_Geoscience_and_CVPR_2026_paper.pdf",
+        "https://arxiv.org/abs/2604.08896",
+        "https://arxiv.org/pdf/2604.08896"
+      ],
+      "local_pdf": "pdfs/2026-CVPR-GeoMMBench-GeoMMAgent-Xiao.pdf",
+      "code": null,
+      "project": "https://geo-mm-agi.github.io/",
+      "datasets": [
+        "GeoMMBench"
+      ],
+      "themes": [
+        "RS-Agent",
+        "multi-agent",
+        "benchmark",
+        "RS-VLM"
+      ],
+      "summary_zh": "提出覆盖多学科、多传感器、多任务的 GeoMMBench，并评估 36 个开源/闭源模型，发现领域知识、感知接地与推理仍有系统性不足。进而给出检索–感知–推理的多 agent GeoMMAgent，用领域 RS 模型与工具增强独立 LLM。项目页已公开；交接清单未单列已核唯一仓库。",
+      "oa_pdf": true,
+      "pdf_bytes": 2010741
+    },
+    {
+      "id": "geollm-squad",
+      "section": "B",
+      "title": "Multi-Agent Geospatial Copilots for Remote Sensing Workflows",
+      "authors_short": "Lee, Paramanayakam, Karatzas, et al.",
+      "year": 2025,
+      "venue": "IGARSS 2025",
+      "venue_status": "accepted",
+      "arxiv": "2501.16254",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2501.16254",
+        "https://arxiv.org/pdf/2501.16254"
+      ],
+      "local_pdf": "pdfs/2025-IGARSS-GeoLLM-Squad-Lee.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "MODIS",
+        "GHS",
+        "Hansen GFC",
+        "xView",
+        "FAIR",
+        "fMoW"
+      ],
+      "themes": [
+        "RS-Agent",
+        "multi-agent",
+        "workflow"
+      ],
+      "summary_zh": "在 AutoGen 与 GeoLLM-Engine 上把编排与任务求解分离，交给城市/农业/森林/气候/卫星视觉等子 agent。摘要称相对基线 agentic correctness 约 +17%。约 2k 生成任务。IEEE 正式版可能需订阅，本包使用 arXiv。作者以 arXiv 页第一作者 Chaehong Lee 为准（交接清单写作 Liao 等）。",
+      "oa_pdf": true,
+      "pdf_bytes": 1972976
+    },
+    {
+      "id": "geo-olm",
+      "section": "B",
+      "title": "Geo-OLM: Enabling Sustainable Earth Observation Studies with Cost-Efficient Open Language Models & State-Driven Workflows",
+      "authors_short": "Stamoulis & Marculescu",
+      "year": 2025,
+      "venue": "ACM COMPASS 2025",
+      "venue_status": "accepted",
+      "arxiv": "2504.04319",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2504.04319",
+        "https://arxiv.org/pdf/2504.04319"
+      ],
+      "local_pdf": "pdfs/2025-COMPASS-Geo-OLM-Stamoulis.pdf",
+      "code": "https://github.com/dstamoulis/geo-olms",
+      "project": null,
+      "datasets": [
+        "EO workflows"
+      ],
+      "themes": [
+        "RS-Agent",
+        "lightweight",
+        "workflow"
+      ],
+      "summary_zh": "用开源小模型与状态驱动工作流降低 EO 研究成本，强调可持续部署。为算力受限的硕士课题提供成本与能效叙事。代码：dstamoulis/geo-olms。",
+      "oa_pdf": true,
+      "pdf_bytes": 4093336
+    },
+    {
+      "id": "expertsrs",
+      "section": "B",
+      "title": "An LLM-based multi-agent system for remote sensing analysis",
+      "authors_short": "Sun et al.",
+      "year": 2026,
+      "venue": "Big Earth Data",
+      "venue_status": "accepted",
+      "arxiv": null,
+      "pdf_urls": [
+        "https://www.tandfonline.com/doi/full/10.1080/20964471.2025.2600178"
+      ],
+      "local_pdf": null,
+      "code": null,
+      "project": null,
+      "datasets": [
+        "遥感分析工作流"
+      ],
+      "themes": [
+        "RS-Agent",
+        "multi-agent",
+        "workflow"
+      ],
+      "summary_zh": "面向非专家的 Data–Tools–Brain 多 agent（AutoGen + DeepSeek-V3 原型 ExpertsRS），把含糊查询转成可执行分析流程。未发现导航仓库。正式 PDF 可能需订阅，本包无 OA PDF。",
+      "oa_pdf": false
+    },
+    {
+      "id": "simcraft",
+      "section": "B",
+      "title": "SimCRAFT: Distilling Remote Sensing Agents via Synthetic Trajectories and Contextual Retrieval-Augmented Fine-Tuning",
+      "authors_short": "Wang, Yao, Yang, et al.",
+      "year": 2026,
+      "venue": "EMNLP 2026",
+      "venue_status": "accepted",
+      "arxiv": "2608.30277",
+      "pdf_urls": [
+        "https://aclanthology.org/2026.emnlp-main.2674.pdf",
+        "https://aclanthology.org/2026.emnlp-main.2674/",
+        "https://arxiv.org/abs/2608.30277",
+        "https://arxiv.org/pdf/2608.30277"
+      ],
+      "local_pdf": "pdfs/2026-EMNLP-SimCRAFT-Wang.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "synthetic RS agent trajectories"
+      ],
+      "themes": [
+        "RS-Agent",
+        "distillation",
+        "instruction tuning"
+      ],
+      "summary_zh": "用合成轨迹与检索增强微调，把多 agent RS 工作流规划蒸馏到较小模型。正式会址为 EMNLP 2026 主会。摘要未确认独立仓库。适合轻量化/边侧部署选题。本包使用 ACL Anthology 正式 PDF。",
+      "oa_pdf": true,
+      "pdf_bytes": 3065857
+    },
+    {
+      "id": "openearthagent-shabbir",
+      "section": "B",
+      "title": "OpenEarthAgent: A Unified Framework for Tool-Augmented Geospatial Agents",
+      "authors_short": "Shabbir, Sheikh, Munir, et al.",
+      "year": 2026,
+      "venue": "预印本（arXiv:2602.17665）；有 ECCV 2026 poster 线索，需与正式论文集再核",
+      "venue_status": "preprint_possible_eccv",
+      "arxiv": "2602.17665",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2602.17665",
+        "https://arxiv.org/pdf/2602.17665"
+      ],
+      "local_pdf": "pdfs/2026-arXiv-OpenEarthAgent-Shabbir.pdf",
+      "code": "https://github.com/mbzuai-oryx/OpenEarthAgent",
+      "project": null,
+      "datasets": [
+        "OpenEarthAgent corpus"
+      ],
+      "themes": [
+        "RS-Agent",
+        "tool use",
+        "GIS",
+        "multi-sensor fusion",
+        "benchmark"
+      ],
+      "summary_zh": "统一可执行工具注册表与轨迹监督微调（Qwen3-4B）；语料含光学/SAR、GIS 与 NDVI/NBR/NDBI。14,538 训练 / 1,169 评测，约 107K 推理步。须与 Zhao 等 OpenEarth-Agent（工具创造）区分。",
+      "oa_pdf": true,
+      "pdf_bytes": 4954473
+    },
+    {
+      "id": "openearth-agent-zhao",
+      "section": "B",
+      "title": "OpenEarth-Agent: From Tool Calling to Tool Creation for Open-Environment Earth Observation",
+      "authors_short": "Zhao, Liu, Zhang, et al.",
+      "year": 2026,
+      "venue": "预印本（arXiv:2603.22148）；会址待确认",
+      "venue_status": "preprint",
+      "arxiv": "2603.22148",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2603.22148",
+        "https://arxiv.org/pdf/2603.22148"
+      ],
+      "local_pdf": "pdfs/2026-arXiv-OpenEarth-Agent-Zhao.pdf",
+      "code": "https://github.com/walking-shadow/OpenEarth-Agent",
+      "project": null,
+      "datasets": [
+        "OpenEarth-Bench",
+        "Earth-Bench"
+      ],
+      "themes": [
+        "RS-Agent",
+        "tool creation",
+        "benchmark"
+      ],
+      "summary_zh": "强调开放环境下创造工具：数据探测、DAG 规划、按节点生成 Python 工具并迭代校验。OpenEarth-Bench 含 596 条全流程案例、7 个应用域。跨基准称仅用 6 个预训练模型工具可接近调用 104 工具的 Earth-Agent。",
+      "oa_pdf": true,
+      "pdf_bytes": 3286615
+    },
+    {
+      "id": "eo-gym",
+      "section": "B",
+      "title": "EO-Gym: A Multimodal, Interactive Environment for Earth Observation Agents",
+      "authors_short": "Ma, Li, Li, et al.",
+      "year": 2026,
+      "venue": "预印本（arXiv:2605.01250）；会址待确认",
+      "venue_status": "preprint",
+      "arxiv": "2605.01250",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2605.01250",
+        "https://arxiv.org/pdf/2605.01250"
+      ],
+      "local_pdf": "pdfs/2026-arXiv-EO-Gym-Ma.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "EO-Gym-Data"
+      ],
+      "themes": [
+        "RS-Agent",
+        "benchmark",
+        "interactive environment",
+        "multi-sensor fusion"
+      ],
+      "summary_zh": "Gymnasium 风格本地 EO 工作空间：>66 万多模态文件，35 个工具；支持平移/缩放、历史观测拉取、光学–SAR 切换。EO-Gym-Data：9,078 轨迹、34,604 步。摘要称 EO-Gym-4B 主设置 Pass@3 从 0.49 提到 0.74。HF 账户名 paperuploadacount 异常，下载前再核镜像。",
+      "oa_pdf": true,
+      "pdf_bytes": 3741124
+    },
+    {
+      "id": "univearth",
+      "section": "B",
+      "title": "Towards LLM Agents for Earth Observation",
+      "authors_short": "Kao, Zhao, et al.",
+      "year": 2025,
+      "venue": "预印本（arXiv:2504.12110）；会址待确认。arXiv 注释写 ACL 2026 Findings，本轮未在 Anthology 交叉核到正式页，不升格",
+      "venue_status": "preprint",
+      "arxiv": "2504.12110",
+      "pdf_urls": [
+        "https://iandrover.github.io/2025_univearth/",
+        "https://arxiv.org/abs/2504.12110",
+        "https://arxiv.org/pdf/2504.12110"
+      ],
+      "local_pdf": "pdfs/2025-arXiv-UnivEARTH-Kao.pdf",
+      "code": null,
+      "project": "https://iandrover.github.io/2025_univearth/",
+      "datasets": [
+        "UnivEARTH"
+      ],
+      "themes": [
+        "RS-Agent",
+        "benchmark",
+        "GEE",
+        "code agent"
+      ],
+      "summary_zh": "从 NASA Earth Observatory 文章构建 408 道需用 GEE 代码取证的是否题（15+ 卫星仪器）。零样本最高约 40% 且大量代码无法运行，reflexion 后约 60%。强调真实目录/传感器 ID 幻觉。",
+      "oa_pdf": true,
+      "pdf_bytes": 1060582
+    },
+    {
+      "id": "vicot-agent",
+      "section": "B",
+      "title": "VICoT-Agent: A Vision-Interleaved Chain-of-Thought Framework for Interpretable Multimodal Reasoning and Scalable Remote Sensing Analysis",
+      "authors_short": "Wang, Luo, Liu, et al.",
+      "year": 2025,
+      "venue": "预印本（arXiv:2511.20085）；会址待确认",
+      "venue_status": "preprint",
+      "arxiv": "2511.20085",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2511.20085",
+        "https://arxiv.org/pdf/2511.20085"
+      ],
+      "local_pdf": "pdfs/2025-arXiv-VICoT-Agent-Wang.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "RSVQA",
+        "MME-RealWorld-RS",
+        "LRS-VQA",
+        "VICoT-HRSC"
+      ],
+      "themes": [
+        "RS-Agent",
+        "tool use",
+        "chain-of-thought",
+        "distillation"
+      ],
+      "summary_zh": "把视觉工具动态插入思维链，MCP 工具集 + 推理栈蒸馏到 Qwen3-14B，面向边侧/低显存。工具含开集检测、去云雨、超分、RAG 等。相对 Plan-Execute，摘要称 token −65%、时延 −48%。未发现导航仓库。",
+      "oa_pdf": true,
+      "pdf_bytes": 11663447
+    },
+    {
+      "id": "rs-agent",
+      "section": "B",
+      "title": "RS-Agent: Automating Remote Sensing Tasks through Intelligent Agent",
+      "authors_short": "Xu, Yu, Mu, et al.",
+      "year": 2024,
+      "venue": "预印本（arXiv:2406.07089）；正文有 Science China Information Sciences 2025 卷线索，期刊页待交叉确认",
+      "venue_status": "preprint_possible_journal",
+      "arxiv": "2406.07089",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2406.07089",
+        "https://arxiv.org/pdf/2406.07089"
+      ],
+      "local_pdf": "pdfs/2024-arXiv-RS-Agent-Xu.pdf",
+      "code": "https://github.com/IntelliSensing/RS-Agent",
+      "project": null,
+      "datasets": [
+        "RSSDIVCS",
+        "RSVQA",
+        "DOTA"
+      ],
+      "themes": [
+        "RS-Agent",
+        "tool use",
+        "RAG"
+      ],
+      "summary_zh": "LLM 中控 + 工具箱 + Solution Space + Knowledge Space（DualRAG）；支持光学与 SAR。规划准确率摘要称超 95%。18 类任务实验。须注意同名工作可能存在。",
+      "oa_pdf": true,
+      "pdf_bytes": 6398134
+    },
+    {
+      "id": "geoagent-chen",
+      "section": "B",
+      "title": "An LLM Agent for Automatic Geospatial Data Analysis",
+      "authors_short": "Chen, Wang, Lobry, Kurtz",
+      "year": 2024,
+      "venue": "预印本（arXiv:2410.18792）；会址待确认",
+      "venue_status": "preprint",
+      "arxiv": "2410.18792",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2410.18792",
+        "https://arxiv.org/pdf/2410.18792"
+      ],
+      "local_pdf": "pdfs/2024-arXiv-GeoAgent-Chen.pdf",
+      "code": "https://github.com/Yusin2Chen/GeoAgent",
+      "project": null,
+      "datasets": [
+        "GeoCode"
+      ],
+      "themes": [
+        "RS-Agent",
+        "code generation",
+        "benchmark"
+      ],
+      "summary_zh": "代码解释器 + 静态分析 + RAG，嵌入 MCTS，生成可执行地理空间 Python；GeoCode 基准含单轮/多轮、28 库、2313 函数调用（含 GEE）。窗口边缘工作；名称易与其他 GeoAgent 混淆。",
+      "oa_pdf": true,
+      "pdf_bytes": 1377319
+    },
+    {
+      "id": "rs-claw",
+      "section": "B-preprint",
+      "title": "RS-Claw: Progressive Active Tool Exploration via Hierarchical Skill Trees for Remote Sensing Agents",
+      "authors_short": "Liu, Wang, Li, et al.",
+      "year": 2026,
+      "venue": "预印本（arXiv:2605.13391）；会址待确认",
+      "venue_status": "preprint",
+      "arxiv": "2605.13391",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2605.13391",
+        "https://arxiv.org/pdf/2605.13391"
+      ],
+      "local_pdf": "pdfs/2026-arXiv-RS-Claw-Liu.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [],
+      "themes": [
+        "RS-Agent",
+        "tool exploration",
+        "skill tree"
+      ],
+      "summary_zh": "用层级技能树缓解工具规模过大时的探索问题。未核到稳定仓库，不升格为主会。",
+      "oa_pdf": true,
+      "pdf_bytes": 1842247
+    },
+    {
+      "id": "rs-claw-evolution",
+      "section": "B-preprint",
+      "title": "RS-Claw-Evolution: Environment-Feedback-Driven Evolution for Lightweight Remote Sensing Agents in Long-Horizon Tasks",
+      "authors_short": "Ouyang, Hou, Liu, et al.",
+      "year": 2026,
+      "venue": "预印本（arXiv:2609.22258）；会址待确认",
+      "venue_status": "preprint",
+      "arxiv": "2609.22258",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2609.22258",
+        "https://arxiv.org/pdf/2609.22258"
+      ],
+      "local_pdf": "pdfs/2026-arXiv-RS-Claw-Evolution-Ouyang.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [],
+      "themes": [
+        "RS-Agent",
+        "lightweight",
+        "evolution"
+      ],
+      "summary_zh": "环境反馈驱动的轻量 RS agent 演化，面向长程任务中的状态丢失与稀疏优化信号。会址未确认。",
+      "oa_pdf": true,
+      "pdf_bytes": 4779093
+    },
+    {
+      "id": "weaveagent",
+      "section": "B-preprint",
+      "title": "WeaveAgent: A Two-Stage Tool-Routing Agent for Ultra-High-Resolution Remote Sensing Imagery",
+      "authors_short": "Pang",
+      "year": 2026,
+      "venue": "预印本（arXiv:2609.31234）；会址待确认",
+      "venue_status": "preprint",
+      "arxiv": "2609.31234",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2609.31234",
+        "https://arxiv.org/pdf/2609.31234"
+      ],
+      "local_pdf": "pdfs/2026-arXiv-WeaveAgent-Pang.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [],
+      "themes": [
+        "RS-Agent",
+        "tool routing",
+        "ultra-high-resolution"
+      ],
+      "summary_zh": "超高分辨率影像的两阶段工具路由：先训练路由发射，再条件执行视觉感知。会址未确认。",
+      "oa_pdf": true,
+      "pdf_bytes": 5866579
+    },
+    {
+      "id": "hirs-agent",
+      "section": "B-preprint",
+      "title": "HiRS-Agent: A Hierarchical Multi-Agent System for Reliable Long-Horizon Remote Sensing Task Solving",
+      "authors_short": "Mu, Wei, Peng, Xu",
+      "year": 2026,
+      "venue": "预印本（arXiv:2608.30672）；会址待确认。arXiv 注释写 ACM MM 2026，未与正式论文集交叉核对，不升格",
+      "venue_status": "preprint",
+      "arxiv": "2608.30672",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2608.30672",
+        "https://arxiv.org/pdf/2608.30672"
+      ],
+      "local_pdf": "pdfs/2026-arXiv-HiRS-Agent-Mu.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [],
+      "themes": [
+        "RS-Agent",
+        "multi-agent",
+        "long-horizon"
+      ],
+      "summary_zh": "分层多 agent 做长程 RS 任务，以避免单体决策在多阶段依赖中的错误累积。按预印本引用。",
+      "oa_pdf": true,
+      "pdf_bytes": 2186377
+    },
+    {
+      "id": "thinkgeo",
+      "section": "C",
+      "title": "ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks",
+      "authors_short": "Shabbir, Munir, Dudhane, et al.",
+      "year": 2025,
+      "venue": "预印本（arXiv:2505.23752）。ICLR 2026 OpenReview 显示已撤稿；有 CVPR 2026 MONTI workshop 线索，不以 CVPR 主会计",
+      "venue_status": "preprint_withdrawn_iclr",
+      "arxiv": "2505.23752",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2505.23752",
+        "https://arxiv.org/pdf/2505.23752"
+      ],
+      "local_pdf": "pdfs/2025-arXiv-ThinkGeo-Shabbir.pdf",
+      "code": "https://github.com/mbzuai-oryx/ThinkGeo",
+      "project": "https://mbzuai-oryx.github.io/ThinkGeo/",
+      "datasets": [
+        "ThinkGeo"
+      ],
+      "themes": [
+        "benchmark",
+        "RS-Agent",
+        "tool use"
+      ],
+      "summary_zh": "首个大规模面向 RS 的 tool-augmented agent 基准：486 任务、1,778 专家步骤、14 工具，含光学与 SAR。分析显示最终答案准确率远低于步骤指标。不以 ICLR/CVPR 主会引用，但开源基准仍常被对照。",
+      "oa_pdf": true,
+      "pdf_bytes": 6845567
+    },
+    {
+      "id": "dora",
+      "section": "C",
+      "title": "Can LLM Agents Respond to Disasters? Benchmarking Heterogeneous Geospatial Reasoning in Emergency Operations",
+      "authors_short": "Wang, Xuan, Qi, et al.",
+      "year": 2026,
+      "venue": "NeurIPS 2026",
+      "venue_status": "accepted",
+      "arxiv": "2605.11633",
+      "pdf_urls": [
+        "https://neurips.cc/virtual/2026/poster/139774",
+        "https://arxiv.org/abs/2605.11633",
+        "https://arxiv.org/pdf/2605.11633"
+      ],
+      "local_pdf": "pdfs/2026-NeurIPS-DORA-Wang.pdf",
+      "code": "https://github.com/Junjue-Wang/DORA",
+      "project": null,
+      "datasets": [
+        "DORA"
+      ],
+      "themes": [
+        "benchmark",
+        "RS-Agent",
+        "disaster",
+        "MCP"
+      ],
+      "summary_zh": "端到端灾害响应 agent 基准：515 专家任务、45 场真实灾害、108 个 MCP 工具。13 个前沿模型上，最长流水线与黄金轨迹差距可到约 56%。失败主要在损毁语义接地、模态错配与流水线组合。",
+      "oa_pdf": true,
+      "pdf_bytes": 3740695
+    },
+    {
+      "id": "choice",
+      "section": "C",
+      "title": "CHOICE: Benchmarking the Remote Sensing Capabilities of Large Vision-Language Models",
+      "authors_short": "An, Sun, Gui, He",
+      "year": 2025,
+      "venue": "NeurIPS 2025 Datasets and Benchmarks",
+      "venue_status": "accepted",
+      "arxiv": "2411.18145",
+      "pdf_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/file/befe25a01cf4dbe9635e85f835d31250-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "https://arxiv.org/abs/2411.18145",
+        "https://arxiv.org/pdf/2411.18145"
+      ],
+      "local_pdf": "pdfs/2025-NeurIPS-CHOICE-An.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "CHOICE"
+      ],
+      "themes": [
+        "benchmark",
+        "RS-VLM"
+      ],
+      "summary_zh": "评测 LVLM 的遥感感知与推理（含多图、多时相），约 10,507 任务，偏静态 VLM 而非 tool agent。本次未确认唯一官方仓。",
+      "oa_pdf": true,
+      "pdf_bytes": 4191384
+    },
+    {
+      "id": "geobench-vlm",
+      "section": "C",
+      "title": "GEOBench-VLM: Benchmarking Vision-Language Models for Geospatial Tasks",
+      "authors_short": "Danish et al.",
+      "year": 2025,
+      "venue": "ICCV 2025",
+      "venue_status": "accepted",
+      "arxiv": "2411.19325",
+      "pdf_urls": [
+        "https://openaccess.thecvf.com/content/ICCV2025/papers/Danish_GEOBench-VLM_Benchmarking_Vision-Language_Models_for_Geospatial_Tasks_ICCV_2025_paper.pdf",
+        "https://arxiv.org/abs/2411.19325",
+        "https://arxiv.org/pdf/2411.19325"
+      ],
+      "local_pdf": "pdfs/2025-ICCV-GEOBench-VLM-Danish.pdf",
+      "code": null,
+      "project": "https://the-ai-alliance.github.io/GEO-Bench-VLM/",
+      "datasets": [
+        "GEOBench-VLM"
+      ],
+      "themes": [
+        "benchmark",
+        "RS-VLM"
+      ],
+      "summary_zh": "面向地学任务的 VLM 基准，10,000+ 人工核验指令。项目页称最强模型选择题约 40% 量级。偏静态评测。",
+      "oa_pdf": true,
+      "pdf_bytes": 2921743
+    },
+    {
+      "id": "vrsbench",
+      "section": "C",
+      "title": "VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding",
+      "authors_short": "Li, Ding, Elhoseiny",
+      "year": 2024,
+      "venue": "NeurIPS 2024 Datasets and Benchmarks",
+      "venue_status": "accepted",
+      "arxiv": "2406.12384",
+      "pdf_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/file/05b7f821234f66b78f99e7803fffa78a-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "https://arxiv.org/abs/2406.12384",
+        "https://arxiv.org/pdf/2406.12384"
+      ],
+      "local_pdf": "pdfs/2024-NeurIPS-VRSBench-Li.pdf",
+      "code": "https://github.com/lx709/VRSBench",
+      "project": "https://vrsbench.github.io/",
+      "datasets": [
+        "VRSBench"
+      ],
+      "themes": [
+        "benchmark",
+        "RS-VLM",
+        "visual grounding"
+      ],
+      "summary_zh": "综合基准：29,614 图、52,472 指称、123,221 QA，覆盖字幕、定位与开放 VQA。落在主窗口内的常用静态 VL 评测。",
+      "oa_pdf": true,
+      "pdf_bytes": 1194421
+    },
+    {
+      "id": "disasterm3",
+      "section": "C",
+      "title": "DisasterM3: A Remote Sensing Vision-Language Dataset for Disaster Damage Assessment and Response",
+      "authors_short": "Wang, Xuan, et al.",
+      "year": 2025,
+      "venue": "NeurIPS 2025 Datasets and Benchmarks",
+      "venue_status": "accepted",
+      "arxiv": null,
+      "pdf_urls": [],
+      "local_pdf": "pdfs/2025-NeurIPS-DisasterM3-Wang.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "DisasterM3"
+      ],
+      "themes": [
+        "benchmark",
+        "disaster",
+        "RS-VLM"
+      ],
+      "summary_zh": "灾害损毁评估与响应的遥感 VLM 数据与评测，被 DORA 作为影像来源之一。本次未单列已核仓。",
+      "oa_pdf": true,
+      "pdf_bytes": 9041247
+    },
+    {
+      "id": "lrs-vqa",
+      "section": "C",
+      "title": "When Large Vision-Language Model Meets Large Remote Sensing Imagery: Coarse-to-Fine Text-Guided Token Pruning",
+      "authors_short": "Luo, Zhang, Yang, et al.",
+      "year": 2025,
+      "venue": "ICCV 2025",
+      "venue_status": "accepted",
+      "arxiv": "2503.07588",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2503.07588",
+        "https://arxiv.org/pdf/2503.07588"
+      ],
+      "local_pdf": "pdfs/2025-ICCV-LRS-VQA-Luo.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "LRS-VQA"
+      ],
+      "themes": [
+        "benchmark",
+        "RS-VLM",
+        "ultra-high-resolution"
+      ],
+      "summary_zh": "面向超大 RS 影像的文本引导 token 剪枝，并构建 LRS-VQA（7,333 QA，最长边至 27,328 像素）。是分辨率挑战，不是 tool agent。",
+      "oa_pdf": true,
+      "pdf_bytes": 6113945
+    },
+    {
+      "id": "earthdial",
+      "section": "A",
+      "title": "EarthDial: Turning Multi-sensory Earth Observations to Interactive Dialogues",
+      "authors_short": "Soni, Dudhane, Debary, et al.",
+      "year": 2025,
+      "venue": "CVPR 2025",
+      "venue_status": "accepted",
+      "arxiv": "2412.15190",
+      "pdf_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/papers/Soni_EarthDial_Turning_Multi-sensory_Earth_Observations_to_Interactive_Dialogues_CVPR_2025_paper.pdf",
+        "https://arxiv.org/abs/2412.15190",
+        "https://arxiv.org/pdf/2412.15190"
+      ],
+      "local_pdf": "pdfs/2025-CVPR-EarthDial-Soni.pdf",
+      "code": "https://github.com/hiyamdebary/EarthDial",
+      "project": null,
+      "datasets": [
+        "EarthDial-Instruct"
+      ],
+      "themes": [
+        "RS-VLM",
+        "multi-sensor fusion",
+        "instruction tuning",
+        "change detection VLM"
+      ],
+      "summary_zh": "对话式 EO VLM，支持多光谱、多时相、多分辨率及 RGB/SAR 等；11.11M 指令对；44 个下游数据集。是重要多传感器底座，但不能替代 tool-using agent。",
+      "oa_pdf": true,
+      "pdf_bytes": 2589639
+    },
+    {
+      "id": "teochat",
+      "section": "A",
+      "title": "TEOChat: A Large Vision-Language Assistant for Temporal Earth Observation Data",
+      "authors_short": "Irvin, Liu, Chen, et al.",
+      "year": 2025,
+      "venue": "ICLR 2025",
+      "venue_status": "accepted",
+      "arxiv": "2410.06234",
+      "pdf_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/ac3af725ae398b6184faae0828bdbd6c-Paper-Conference.pdf",
+        "https://arxiv.org/abs/2410.06234",
+        "https://arxiv.org/pdf/2410.06234"
+      ],
+      "local_pdf": "pdfs/2025-ICLR-TEOChat-Irvin.pdf",
+      "code": "https://github.com/ermongroup/teochat",
+      "project": null,
+      "datasets": [
+        "temporal EO / change"
+      ],
+      "themes": [
+        "RS-VLM",
+        "change detection VLM",
+        "instruction tuning"
+      ],
+      "summary_zh": "面向时间序列 EO 的视觉语言助手，强调变化与时序推理。代码：ermongroup/teochat。",
+      "oa_pdf": true,
+      "pdf_bytes": 10504150
+    },
+    {
+      "id": "skyeyegpt",
+      "section": "A",
+      "title": "SkyEyeGPT: Unifying remote sensing vision-language tasks via instruction tuning with large language model",
+      "authors_short": "Zhan, Xiong, Yuan",
+      "year": 2025,
+      "venue": "ISPRS Journal of Photogrammetry and Remote Sensing 2025",
+      "venue_status": "accepted",
+      "arxiv": "2401.09712",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2401.09712",
+        "https://arxiv.org/pdf/2401.09712"
+      ],
+      "local_pdf": "pdfs/2025-ISPRS-SkyEyeGPT-Zhan.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "SkyEye-968k"
+      ],
+      "themes": [
+        "RS-VLM",
+        "instruction tuning"
+      ],
+      "summary_zh": "指令微调统一多种 RS 视觉语言任务，并含视频字幕方向。出版社正式版可能需订阅，本包使用 arXiv。",
+      "oa_pdf": true,
+      "pdf_bytes": 24503893
+    },
+    {
+      "id": "rsgpt",
+      "section": "A",
+      "title": "RSGPT: A remote sensing vision language model and benchmark",
+      "authors_short": "Hu, Yuan, Wen, et al.",
+      "year": 2025,
+      "venue": "ISPRS Journal of Photogrammetry and Remote Sensing 2025",
+      "venue_status": "accepted",
+      "arxiv": "2307.15266",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2307.15266",
+        "https://arxiv.org/pdf/2307.15266"
+      ],
+      "local_pdf": "pdfs/2025-ISPRS-RSGPT-Hu.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "RSICap",
+        "RSIEval"
+      ],
+      "themes": [
+        "RS-VLM",
+        "benchmark"
+      ],
+      "summary_zh": "较早的 RS VLM + 高质量标注基准（预印本 2023，正式刊 2025），后续大量工作以其为基线。本包使用 arXiv。",
+      "oa_pdf": true,
+      "pdf_bytes": 3112730
+    },
+    {
+      "id": "ringmo-agent",
+      "section": "A",
+      "title": "RingMo-Agent: A Unified Remote Sensing Foundation Model for Multi-Platform and Multi-Modal Reasoning",
+      "authors_short": "Hu, Wang, Feng, et al.",
+      "year": 2026,
+      "venue": "IEEE TPAMI（DOI: 10.1109/tpami.2026.3718699；卷期页以 Xplore 为准）",
+      "venue_status": "accepted",
+      "arxiv": "2507.20776",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2507.20776",
+        "https://arxiv.org/pdf/2507.20776"
+      ],
+      "local_pdf": "pdfs/2026-TPAMI-RingMo-Agent-Hu.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "RS-VL3M",
+        "CityNav"
+      ],
+      "themes": [
+        "foundation model",
+        "RS-VLM",
+        "RS-Agent",
+        "multi-sensor fusion"
+      ],
+      "summary_zh": "卫星+无人机，光学/SAR/红外；RS-VL3M（>300 万图文对）。含外部视觉定位工具 + RL 优化轨迹解码，用于长程导航类推理，介于 VLM 与 agent 之间。未发现可核官方仓。本包使用 arXiv。",
+      "oa_pdf": true,
+      "pdf_bytes": 9832952
+    },
+    {
+      "id": "geopixel",
+      "section": "A",
+      "title": "GeoPixel: Pixel Grounding Large Multimodal Model in Remote Sensing",
+      "authors_short": "Shabbir et al.",
+      "year": 2025,
+      "venue": "ICML 2025",
+      "venue_status": "accepted",
+      "arxiv": "2501.13925",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2501.13925",
+        "https://arxiv.org/pdf/2501.13925"
+      ],
+      "local_pdf": "pdfs/2025-ICML-GeoPixel-Shabbir.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "pixel-level grounding"
+      ],
+      "themes": [
+        "RS-VLM",
+        "visual grounding"
+      ],
+      "summary_zh": "高分辨率 RS 的像素级定位与掩膜生成。PMLR 官方 PDF 本环境下载失败，已改用 arXiv。",
+      "oa_pdf": true,
+      "pdf_bytes": 28501335
+    },
+    {
+      "id": "remotereasoner",
+      "section": "A",
+      "title": "RemoteReasoner: Towards Unifying Geospatial Reasoning Workflow",
+      "authors_short": "Yao, Liu, Lu, et al.",
+      "year": 2026,
+      "venue": "AAAI 2026",
+      "venue_status": "accepted",
+      "arxiv": "2507.19280",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2507.19280",
+        "https://arxiv.org/pdf/2507.19280"
+      ],
+      "local_pdf": "pdfs/2026-AAAI-RemoteReasoner-Yao.pdf",
+      "code": "https://github.com/1e12Leon/RemoteReasoner",
+      "project": null,
+      "datasets": [
+        "multi-granularity geospatial reasoning"
+      ],
+      "themes": [
+        "RS-VLM",
+        "geospatial reasoning"
+      ],
+      "summary_zh": "用 MLLM + RL 与任务变换，统一对象/区域/像素级地学推理工作流（偏模型内推理，不一定是外部工具 agent）。AAAI 出版社 PDF 未下到，已用 arXiv。",
+      "oa_pdf": true,
+      "pdf_bytes": 1648992
+    },
+    {
+      "id": "terrascope",
+      "section": "A",
+      "title": "TerraScope: Pixel-Grounded Visual Reasoning for Earth Observation",
+      "authors_short": "Shu et al.",
+      "year": 2026,
+      "venue": "CVPR 2026",
+      "venue_status": "accepted",
+      "arxiv": "2603.19039",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2603.19039",
+        "https://arxiv.org/pdf/2603.19039"
+      ],
+      "local_pdf": "pdfs/2026-CVPR-TerraScope-Shu.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "Terra-CoT",
+        "TerraScope-Bench"
+      ],
+      "themes": [
+        "RS-VLM",
+        "visual grounding",
+        "multi-sensor fusion"
+      ],
+      "summary_zh": "在推理链中交错生成掩膜；支持光学/SAR 自适应融合与多时相。明确对比先前依赖外部工具的 EO VLM。",
+      "oa_pdf": true,
+      "pdf_bytes": 10785352
+    },
+    {
+      "id": "socrates",
+      "section": "A",
+      "title": "Asking like Socrates: Socrates helps VLMs understand remote sensing images",
+      "authors_short": "Shao et al.",
+      "year": 2026,
+      "venue": "CVPR 2026",
+      "venue_status": "accepted",
+      "arxiv": "2511.22396",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2511.22396",
+        "https://arxiv.org/pdf/2511.22396"
+      ],
+      "local_pdf": "pdfs/2026-CVPR-AskingLikeSocrates-Shao.pdf",
+      "code": null,
+      "project": "https://geoxlab.github.io/Asking_like_Socrates",
+      "datasets": [
+        "RS VQA / grounding"
+      ],
+      "themes": [
+        "RS-VLM",
+        "multi-agent",
+        "reasoning data"
+      ],
+      "summary_zh": "针对 RS「伪推理/Glance Effect」，用自博弈多 agent 合成推理轨迹，再分阶段 RL，强调证据寻找而非只叙事。",
+      "oa_pdf": true,
+      "pdf_bytes": 4411042
+    },
+    {
+      "id": "geocot",
+      "section": "A",
+      "title": "GeoCoT: Towards Reliable Remote Sensing Reasoning with Manifold Perspective",
+      "authors_short": "Li et al.",
+      "year": 2026,
+      "venue": "CVPR 2026",
+      "venue_status": "accepted",
+      "arxiv": null,
+      "pdf_urls": [],
+      "local_pdf": "pdfs/2026-CVPR-GeoCoT-Li.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "RS-CoT-20k"
+      ],
+      "themes": [
+        "RS-VLM",
+        "chain-of-thought"
+      ],
+      "summary_zh": "流形驱动 MoE + CoT，及 RSV-GRPO；构建 RS-CoT-20k。是推理型 MLLM，不是工具 agent。论文称代码将公开。",
+      "oa_pdf": true,
+      "pdf_bytes": 3051059
+    },
+    {
+      "id": "zoomearth",
+      "section": "A",
+      "title": "ZoomEarth: Active Perception for Ultra-High-Resolution Geospatial Vision-Language Tasks",
+      "authors_short": "Liu et al.",
+      "year": 2026,
+      "venue": "CVPR 2026",
+      "venue_status": "accepted",
+      "arxiv": "2511.12267",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2511.12267",
+        "https://arxiv.org/pdf/2511.12267"
+      ],
+      "local_pdf": "pdfs/2026-CVPR-ZoomEarth-Liu.pdf",
+      "code": "https://github.com/earth-insights/ZoomEarth",
+      "project": null,
+      "datasets": [
+        "ultra-high-resolution geospatial VL"
+      ],
+      "themes": [
+        "RS-VLM",
+        "active perception",
+        "ultra-high-resolution"
+      ],
+      "summary_zh": "超高分辨率地学 VL 任务的主动感知（缩放/聚焦），接近视觉工具式交互，但主要是模型策略。",
+      "oa_pdf": true,
+      "pdf_bytes": 5056315
+    },
+    {
+      "id": "falcon",
+      "section": "A",
+      "title": "Falcon: A Remote Sensing Vision-Language Foundation Model (Technical Report)",
+      "authors_short": "Yao, Xu, Yang, et al.",
+      "year": 2025,
+      "venue": "技术报告（arXiv:2503.11070）；会址待确认",
+      "venue_status": "preprint",
+      "arxiv": "2503.11070",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2503.11070",
+        "https://arxiv.org/pdf/2503.11070"
+      ],
+      "local_pdf": "pdfs/2025-arXiv-Falcon-Yao.pdf",
+      "code": "https://github.com/TianHuiLab/Falcon",
+      "project": null,
+      "datasets": [
+        "Falcon_SFT"
+      ],
+      "themes": [
+        "foundation model",
+        "RS-VLM"
+      ],
+      "summary_zh": "较小统一 RS VLM，覆盖图像/区域/像素级多种任务。作者以 arXiv 页 Kelu Yao 等为准。代码：TianHuiLab/Falcon。",
+      "oa_pdf": true,
+      "pdf_bytes": 7350857
+    },
+    {
+      "id": "lhrs-bot-nova",
+      "section": "A",
+      "title": "LHRS-Bot-Nova: Improved Multimodal Large Language Model for Remote Sensing Vision-Language Interpretation",
+      "authors_short": "Li, Muhtar, Gu, et al.",
+      "year": 2024,
+      "venue": "预印本（arXiv:2411.09301）；会址待确认",
+      "venue_status": "preprint",
+      "arxiv": "2411.09301",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2411.09301",
+        "https://arxiv.org/pdf/2411.09301"
+      ],
+      "local_pdf": "pdfs/2024-arXiv-LHRS-Bot-Nova-Li.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "RS instruction following"
+      ],
+      "themes": [
+        "RS-VLM",
+        "instruction tuning"
+      ],
+      "summary_zh": "LHRS-Bot 改进版，增强 RS 视觉语言解释。会址待确认，不升格。",
+      "oa_pdf": true,
+      "pdf_bytes": 21961056
+    },
+    {
+      "id": "rs-moe",
+      "section": "A",
+      "title": "RS-MoE: Mixture of Experts for Remote Sensing Image Captioning and Visual Question Answering",
+      "authors_short": "Lin, Hong, Ge, et al.",
+      "year": 2024,
+      "venue": "预印本（arXiv:2411.01595）；会址待确认",
+      "venue_status": "preprint",
+      "arxiv": "2411.01595",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2411.01595",
+        "https://arxiv.org/pdf/2411.01595"
+      ],
+      "local_pdf": "pdfs/2024-arXiv-RS-MoE-Lin.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "captioning / VQA"
+      ],
+      "themes": [
+        "RS-VLM"
+      ],
+      "summary_zh": "指令路由 + 轻量专家，用于字幕与 VQA。会址待确认。",
+      "oa_pdf": true,
+      "pdf_bytes": 2530787
+    },
+    {
+      "id": "skymoe",
+      "section": "A",
+      "title": "SkyMoE: A Vision-Language Foundation Model for Enhancing Geospatial Interpretation with Mixture of Experts",
+      "authors_short": "见 AAAI 页",
+      "year": 2026,
+      "venue": "AAAI（OJS 37653）；届次以期刊页为准",
+      "venue_status": "accepted_year_uncertain",
+      "arxiv": null,
+      "pdf_urls": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/37653"
+      ],
+      "local_pdf": null,
+      "code": null,
+      "project": null,
+      "datasets": [
+        "geospatial interpretation"
+      ],
+      "themes": [
+        "RS-VLM",
+        "foundation model"
+      ],
+      "summary_zh": "混合专家增强多任务、多粒度地学解释。本环境未获得开放 PDF，也未发现 arXiv。",
+      "oa_pdf": false
+    },
+    {
+      "id": "lisat",
+      "section": "A",
+      "title": "LISAT: Language-Instructed Segmentation Assistant for Satellite Imagery",
+      "authors_short": "见 NeurIPS 2025 页",
+      "year": 2025,
+      "venue": "NeurIPS 2025 Datasets and Benchmarks",
+      "venue_status": "accepted",
+      "arxiv": "2505.02829",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2505.02829",
+        "https://arxiv.org/pdf/2505.02829"
+      ],
+      "local_pdf": "pdfs/2025-NeurIPS-LISAT.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "GRES",
+        "PreGRES"
+      ],
+      "themes": [
+        "RS-VLM",
+        "visual grounding",
+        "benchmark"
+      ],
+      "summary_zh": "语言指令驱动的卫星影像分割助手，偏分割助手而非工具规划 agent。交接清单在 A 组末段提及。",
+      "oa_pdf": true,
+      "pdf_bytes": 14716299
+    },
+    {
+      "id": "fusar-gpt",
+      "section": "D",
+      "title": "FUSAR-GPT: A Spatiotemporal Feature-Embedded and Two-Stage Decoupled Visual Language Model for SAR Imagery",
+      "authors_short": "Zhang et al.",
+      "year": 2026,
+      "venue": "CVPR 2026",
+      "venue_status": "accepted",
+      "arxiv": null,
+      "pdf_urls": [],
+      "local_pdf": "pdfs/2026-CVPR-FUSAR-GPT-Zhang.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "SAR vision-language"
+      ],
+      "themes": [
+        "RS-VLM",
+        "multi-sensor fusion"
+      ],
+      "summary_zh": "SAR 专用 VLM，嵌入时空特征、两阶段解耦。为 SAR 感知底座，但不是 tool-augmented agent。",
+      "oa_pdf": true,
+      "pdf_bytes": 18251075
+    },
+    {
+      "id": "fusar-klip",
+      "section": "D",
+      "title": "FUSAR-KLIP: Towards Multimodal Foundation Models for Remote Sensing",
+      "authors_short": "Yang, Zhang, Fang, et al.",
+      "year": 2025,
+      "venue": "预印本（arXiv:2509.23927）；会址待确认",
+      "venue_status": "preprint",
+      "arxiv": "2509.23927",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2509.23927",
+        "https://arxiv.org/pdf/2509.23927"
+      ],
+      "local_pdf": "pdfs/2025-arXiv-FUSAR-KLIP-Yang.pdf",
+      "code": "https://github.com/yangyifremad/FUSAR-KLIP",
+      "project": null,
+      "datasets": [
+        "SAR multimodal"
+      ],
+      "themes": [
+        "foundation model",
+        "multi-sensor fusion",
+        "RS-VLM"
+      ],
+      "summary_zh": "面向 SAR 的多模态基础模型，含地理元数据与推理向标注。代码：yangyifremad/FUSAR-KLIP。",
+      "oa_pdf": true,
+      "pdf_bytes": 51100843
+    },
+    {
+      "id": "spext",
+      "section": "D",
+      "title": "SPEXT: A Decoupled Multi-Spectral Foundation Model for Earth Observation and Vision-Language Grounding",
+      "authors_short": "见会议页",
+      "year": 2026,
+      "venue": "NeurIPS 2026",
+      "venue_status": "accepted",
+      "arxiv": null,
+      "pdf_urls": [
+        "https://neurips.cc/virtual/2026/poster/153724"
+      ],
+      "local_pdf": null,
+      "code": null,
+      "project": null,
+      "datasets": [
+        "multispectral EO / grounding"
+      ],
+      "themes": [
+        "foundation model",
+        "multi-sensor fusion",
+        "visual grounding"
+      ],
+      "summary_zh": "解耦多光谱基础模型，用于 EO 与视觉语言定位。交接清单仅有海报页，本包无全文 PDF。",
+      "oa_pdf": false
+    },
+    {
+      "id": "earthgpt",
+      "section": "D",
+      "title": "EarthGPT: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain",
+      "authors_short": "Zhang, Cai, Zhang, Zhuang, Mao",
+      "year": 2024,
+      "venue": "IEEE TGRS 2024",
+      "venue_status": "accepted",
+      "arxiv": "2401.16822",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2401.16822",
+        "https://arxiv.org/pdf/2401.16822"
+      ],
+      "local_pdf": "pdfs/2024-TGRS-EarthGPT-Zhang.pdf",
+      "code": "https://github.com/wivizhang/EarthGPT",
+      "project": null,
+      "datasets": [
+        "MMRS-1M"
+      ],
+      "themes": [
+        "RS-VLM",
+        "multi-sensor fusion",
+        "foundation model"
+      ],
+      "summary_zh": "统一光学/SAR/红外的 RS MLLM；构建 MMRS-1M（>100 万对，34 个数据集转化）。因多传感器被大量 2025–26 agent 引用，主表与附录双见。本包使用 arXiv。",
+      "oa_pdf": true,
+      "pdf_bytes": 10298888
+    },
+    {
+      "id": "change-agent",
+      "section": "E",
+      "title": "Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis",
+      "authors_short": "Liu, Chen, Zhang, et al.",
+      "year": 2024,
+      "venue": "IEEE TGRS 2024",
+      "venue_status": "accepted",
+      "arxiv": "2403.19646",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2403.19646",
+        "https://arxiv.org/pdf/2403.19646"
+      ],
+      "local_pdf": "pdfs/2024-TGRS-Change-Agent-Liu.pdf",
+      "code": "https://github.com/Chen-Yang-Liu/Change-Agent",
+      "project": null,
+      "datasets": [
+        "LEVIR-MCI"
+      ],
+      "themes": [
+        "RS-Agent",
+        "change detection VLM"
+      ],
+      "summary_zh": "多层变化解释模型 + LLM 规划调用 Python 工具（计数、原因分析、变化预测等）。本包使用 arXiv。",
+      "oa_pdf": true,
+      "pdf_bytes": 17430738
+    },
+    {
+      "id": "rescueadi",
+      "section": "E",
+      "title": "RescueADI: Adaptive Disaster Interpretation in Remote Sensing Images with Autonomous Agents",
+      "authors_short": "Liu, Zhao, Yuan, et al.",
+      "year": 2025,
+      "venue": "IEEE TGRS 2025",
+      "venue_status": "accepted",
+      "arxiv": "2410.13384",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2410.13384",
+        "https://arxiv.org/pdf/2410.13384"
+      ],
+      "local_pdf": "pdfs/2025-TGRS-RescueADI-Liu.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "RescueADI"
+      ],
+      "themes": [
+        "RS-Agent",
+        "disaster"
+      ],
+      "summary_zh": "LLM agent 规划并执行一系列感知任务，再识别结果以回答复杂灾害问题；工具含分割面积计算、A* 路径等。数据集摘要/机构页称 4,044 图。本次未核到独立仓。",
+      "oa_pdf": true,
+      "pdf_bytes": 1421882
+    },
+    {
+      "id": "risk-aware",
+      "section": "E",
+      "title": "Risk-Aware LLM Agents for Geospatial Data Retrieval",
+      "authors_short": "Gao, Cumming, Li, Xu, Clausi",
+      "year": 2026,
+      "venue": "ISPRS Archives XLIX-B3-2026",
+      "venue_status": "accepted",
+      "arxiv": null,
+      "pdf_urls": [],
+      "local_pdf": "pdfs/2026-ISPRS-RiskAware-Gao.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "catalog retrieval / API generation"
+      ],
+      "themes": [
+        "RS-Agent",
+        "safety",
+        "catalog retrieval"
+      ],
+      "summary_zh": "自然语言查询云端地理空间目录；Guardrail / QA / Recommender 三 agent；对抗多轮下的 API 操纵安全。Copernicus 开放 PDF。",
+      "oa_pdf": true,
+      "pdf_bytes": 952276
+    },
+    {
+      "id": "space-air-ground",
+      "section": "E",
+      "title": "Integration and Intelligent Monitoring Technology System of Space-Air-Ground Remote Sensing",
+      "authors_short": "Liu, You, Jiang, et al.",
+      "year": 2026,
+      "venue": "ISPRS Archives XLIX-B1-2026",
+      "venue_status": "accepted",
+      "arxiv": null,
+      "pdf_urls": [],
+      "local_pdf": "pdfs/2026-ISPRS-SpaceAirGround-Liu.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "application case"
+      ],
+      "themes": [
+        "RS-Agent",
+        "system integration",
+        "aerospace application"
+      ],
+      "summary_zh": "航天应用向综述+系统：空天遥感监测 agent，自然语言解析、任务链与多算法执行；湖南废弃矿生态修复案例。偏系统集成，算法创新有限。",
+      "oa_pdf": true,
+      "pdf_bytes": 1329866
+    },
+    {
+      "id": "talemi-survey",
+      "section": "E-workshop",
+      "title": "Agentic AI in Remote Sensing: Foundations, Taxonomy, and Emerging Systems",
+      "authors_short": "Talemi et al.",
+      "year": 2026,
+      "venue": "WACV 2026 Workshop (GeoCV)",
+      "venue_status": "workshop",
+      "arxiv": "2601.01891",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2601.01891",
+        "https://arxiv.org/pdf/2601.01891"
+      ],
+      "local_pdf": "pdfs/2026-WACVW-AgenticAI-RS-Talemi.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [],
+      "themes": [
+        "survey",
+        "RS-Agent"
+      ],
+      "summary_zh": "工作坊综述，梳理遥感 agentic AI 的基础、分类与新兴系统。仅作地图，不升格主会。",
+      "oa_pdf": true,
+      "pdf_bytes": 11907008
+    },
+    {
+      "id": "raven",
+      "section": "E-workshop",
+      "title": "RAVEN: A Rapid Agentic Vision Framework for Emergency Response in Vulnerable Settlements",
+      "authors_short": "Maitra et al.",
+      "year": 2026,
+      "venue": "WACV 2026 Workshop (GeoCV)",
+      "venue_status": "workshop",
+      "arxiv": null,
+      "pdf_urls": [],
+      "local_pdf": "pdfs/2026-WACVW-RAVEN-Maitra.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [],
+      "themes": [
+        "RS-Agent",
+        "disaster",
+        "workshop"
+      ],
+      "summary_zh": "面向脆弱聚落应急响应的快速 agentic 视觉框架。仅作地图，不升格主会。",
+      "oa_pdf": true,
+      "pdf_bytes": 3868470
+    },
+    {
+      "id": "geochat",
+      "section": "F",
+      "title": "GeoChat: Grounded Large Vision-Language Model for Remote Sensing",
+      "authors_short": "Kuckreja, Danish, Naseer, et al.",
+      "year": 2024,
+      "venue": "CVPR 2024",
+      "venue_status": "accepted",
+      "arxiv": "2311.15826",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2311.15826",
+        "https://arxiv.org/pdf/2311.15826"
+      ],
+      "local_pdf": "pdfs/2024-CVPR-GeoChat-Kuckreja.pdf",
+      "code": "https://github.com/mbzuai-oryx/geochat",
+      "project": null,
+      "datasets": [
+        "GeoChat instruction data"
+      ],
+      "themes": [
+        "RS-VLM",
+        "visual grounding",
+        "instruction tuning"
+      ],
+      "summary_zh": "首个面向 RS 的接地对话 VLM：区域输入、坐标输出、多任务指令数据（约 318k）。后续几乎所有 RS-MLLM/agent 的对比基线。",
+      "oa_pdf": true,
+      "pdf_bytes": 2529446
+    },
+    {
+      "id": "remoteclip",
+      "section": "F",
+      "title": "RemoteCLIP: A Vision Language Foundation Model for Remote Sensing",
+      "authors_short": "Liu et al.",
+      "year": 2024,
+      "venue": "IEEE TGRS 2024",
+      "venue_status": "accepted",
+      "arxiv": "2306.11029",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2306.11029",
+        "https://arxiv.org/pdf/2306.11029"
+      ],
+      "local_pdf": "pdfs/2024-TGRS-RemoteCLIP-Liu.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "RemoteCLIP pretraining / RemoteCount"
+      ],
+      "themes": [
+        "foundation model",
+        "RS-VLM"
+      ],
+      "summary_zh": "RS 对比图文基础模型，为开放词汇与检索提供底座。本包使用 arXiv。交接清单不强制列未核仓库。",
+      "oa_pdf": true,
+      "pdf_bytes": 14105741
+    },
+    {
+      "id": "lhrs-bot",
+      "section": "F",
+      "title": "LHRS-Bot: Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model",
+      "authors_short": "Muhtar, Li, Gu, Zhang, Xiao",
+      "year": 2024,
+      "venue": "ECCV 2024",
+      "venue_status": "accepted",
+      "arxiv": "2402.02544",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2402.02544",
+        "https://arxiv.org/pdf/2402.02544"
+      ],
+      "local_pdf": "pdfs/2024-ECCV-LHRS-Bot-Muhtar.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "LHRS-Instruct",
+        "LHRS-Bench"
+      ],
+      "themes": [
+        "RS-VLM",
+        "instruction tuning"
+      ],
+      "summary_zh": "用 VGI（如 OSM）增强的 RS MLLM，并提供指令与评测资源。",
+      "oa_pdf": true,
+      "pdf_bytes": 24290580
+    },
+    {
+      "id": "geollm-engine",
+      "section": "F",
+      "title": "GeoLLM-Engine: A Realistic Environment for Building Geospatial Copilots",
+      "authors_short": "Singh, Fore, Stamoulis",
+      "year": 2024,
+      "venue": "CVPR 2024 Workshop (EarthVision)",
+      "venue_status": "workshop",
+      "arxiv": "2404.15500",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2404.15500",
+        "https://arxiv.org/pdf/2404.15500"
+      ],
+      "local_pdf": "pdfs/2024-CVPRW-GeoLLM-Engine-Singh.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "geospatial copilot workflows"
+      ],
+      "themes": [
+        "RS-Agent",
+        "benchmark",
+        "workflow"
+      ],
+      "summary_zh": "真实感地理空间 Copilot 环境，多轮工具 API，后为 GeoLLM-Squad 底座。",
+      "oa_pdf": true,
+      "pdf_bytes": 4750334
+    },
+    {
+      "id": "eval-tool-agents",
+      "section": "F",
+      "title": "Evaluating Tool-Augmented Agents in Remote Sensing Platforms",
+      "authors_short": "Singh, Fore, Stamoulis",
+      "year": 2024,
+      "venue": "预印本（arXiv:2405.00709）；会址按预印本",
+      "venue_status": "preprint",
+      "arxiv": "2405.00709",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2405.00709",
+        "https://arxiv.org/pdf/2405.00709"
+      ],
+      "local_pdf": "pdfs/2024-arXiv-EvaluatingToolAgents-Singh.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "RS platform tool evaluation"
+      ],
+      "themes": [
+        "benchmark",
+        "RS-Agent"
+      ],
+      "summary_zh": "早期系统评测 RS 平台上的工具增强 agent。",
+      "oa_pdf": true,
+      "pdf_bytes": 9446036
+    },
+    {
+      "id": "rs-chatgpt",
+      "section": "F",
+      "title": "Remote Sensing ChatGPT: Solving Remote Sensing Tasks with ChatGPT and Visual Models",
+      "authors_short": "Guo, Su, Wu, Du, Zhang, Li",
+      "year": 2024,
+      "venue": "IGARSS 2024",
+      "venue_status": "accepted",
+      "arxiv": "2401.09083",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2401.09083",
+        "https://arxiv.org/pdf/2401.09083"
+      ],
+      "local_pdf": "pdfs/2024-IGARSS-RS-ChatGPT-Guo.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "detection / classification / captioning"
+      ],
+      "themes": [
+        "RS-Agent",
+        "tool use"
+      ],
+      "summary_zh": "ChatGPT 串联预训练视觉模型，是后续 agent 常比的早期系统。本包使用 arXiv。",
+      "oa_pdf": true,
+      "pdf_bytes": 473107
+    },
+    {
+      "id": "skysense",
+      "section": "F",
+      "title": "SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery",
+      "authors_short": "Guo et al.",
+      "year": 2024,
+      "venue": "CVPR 2024",
+      "venue_status": "accepted",
+      "arxiv": "2312.10115",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2312.10115",
+        "https://arxiv.org/pdf/2312.10115"
+      ],
+      "local_pdf": "pdfs/2024-CVPR-SkySense-Guo.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "multi-modal EO imagery"
+      ],
+      "themes": [
+        "foundation model",
+        "multi-sensor fusion"
+      ],
+      "summary_zh": "多模态 RS 视觉基础模型（偏视觉 FM，不是对话 agent）。",
+      "oa_pdf": true,
+      "pdf_bytes": 9119101
+    },
+    {
+      "id": "earthvqa",
+      "section": "F",
+      "title": "EarthVQA: Towards Queryable Earth via Relational Reasoning-Based Remote Sensing Visual Question Answering",
+      "authors_short": "Wang, Zheng, Chen, Ma, Zhong",
+      "year": 2024,
+      "venue": "AAAI 2024",
+      "venue_status": "accepted",
+      "arxiv": "2312.12222",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2312.12222",
+        "https://arxiv.org/pdf/2312.12222"
+      ],
+      "local_pdf": "pdfs/2024-AAAI-EarthVQA-Wang.pdf",
+      "code": "https://github.com/Junjue-Wang/EarthVQA",
+      "project": null,
+      "datasets": [
+        "EarthVQA"
+      ],
+      "themes": [
+        "benchmark",
+        "RS-VLM"
+      ],
+      "summary_zh": "关系推理型 RS VQA，后常被 agent 论文当作静态 VQA 对照。本包使用 arXiv。",
+      "oa_pdf": true,
+      "pdf_bytes": 6477518
+    },
+    {
+      "id": "rsvqa",
+      "section": "F",
+      "title": "RSVQA: Visual Question Answering for Remote Sensing Data",
+      "authors_short": "Lobry, Marcos, Murray, Tuia",
+      "year": 2020,
+      "venue": "IEEE TGRS 2020",
+      "venue_status": "accepted",
+      "arxiv": "2003.07333",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2003.07333",
+        "https://arxiv.org/pdf/2003.07333"
+      ],
+      "local_pdf": "pdfs/2020-TGRS-RSVQA-Lobry.pdf",
+      "code": null,
+      "project": "https://rsvqa.sylvainlobry.com/",
+      "datasets": [
+        "RSVQA-LR",
+        "RSVQA-HR"
+      ],
+      "themes": [
+        "benchmark",
+        "RS-VLM"
+      ],
+      "summary_zh": "领域经典 VQA 基准（超出时间窗，仅作评测祖先）。本包使用开放预印本。",
+      "oa_pdf": true,
+      "pdf_bytes": 5409151
+    },
+    {
+      "id": "rs-llava",
+      "section": "F",
+      "title": "RS-LLaVA: A Large Vision-Language Model for Joint Captioning and Question Answering in Remote Sensing Imagery",
+      "authors_short": "Bazi et al.",
+      "year": 2024,
+      "venue": "Remote Sensing 16(9):1477",
+      "venue_status": "accepted",
+      "arxiv": null,
+      "pdf_urls": [
+        "https://www.mdpi.com/2072-4292/16/9/1477"
+      ],
+      "local_pdf": null,
+      "code": null,
+      "project": null,
+      "datasets": [
+        "captioning / VQA"
+      ],
+      "themes": [
+        "RS-VLM"
+      ],
+      "summary_zh": "联合字幕与问答的 RS LLaVA 变体。MDPI 页一般为 OA，本环境 PDF 下载 403，未打包。",
+      "oa_pdf": false
+    },
+    {
+      "id": "skysensegpt",
+      "section": "F",
+      "title": "SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding",
+      "authors_short": "Luo et al.",
+      "year": 2024,
+      "venue": "预印本（arXiv:2406.10100）；至交接清单完成时仍以预印本为主",
+      "venue_status": "preprint",
+      "arxiv": "2406.10100",
+      "pdf_urls": [
+        "https://arxiv.org/abs/2406.10100",
+        "https://arxiv.org/pdf/2406.10100"
+      ],
+      "local_pdf": "pdfs/2024-arXiv-SkySenseGPT-Luo.pdf",
+      "code": null,
+      "project": null,
+      "datasets": [
+        "FIT-RS"
+      ],
+      "themes": [
+        "RS-VLM",
+        "instruction tuning"
+      ],
+      "summary_zh": "细粒度指令数据与关系推理向 RS MLLM。不能写成已录用顶会。",
+      "oa_pdf": true,
+      "pdf_bytes": 17917353
+    }
+  ]
+}
