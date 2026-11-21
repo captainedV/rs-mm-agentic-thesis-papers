@@ -8,9 +8,9 @@
 
 ## 仓库内容
 
-- `pdfs/`：57 篇已核对的开放获取 PDF，文件名格式为 `YYYY-Venue-ShortTitle-FirstAuthor.pdf`
+- `pdfs/`：58 篇已核对的开放获取 PDF，文件名格式为 `YYYY-Venue-ShortTitle-FirstAuthor.pdf`
 - `papers.json`：机器可读目录（标题、会址、arXiv、开源地址、摘要要点）
-- `missing-pdfs.md`：未能收入的 4 篇及正式版改用预印本的说明
+- `missing-pdfs.md`：未能收入的 3 篇及正式版改用预印本的说明
 - `SURVEY.md`：开题用简明综述与选题切入点
 
 ## 建议优先阅读
@@ -30,13 +30,13 @@
 - GeoAssistant 在交接清单中记为 ICLR 2026 已撤稿，本仓库不收录，也不作为录用论文引用。ThinkGeo 的 ICLR 2026 投稿按交接说明处理，只保留上述预印本。
 - UnivEARTH、HiRS-Agent 的 arXiv 注释中出现过 ACL 2026 Findings、ACM MM 2026 等会址，尚未独立复核会议页，文件名仍标为 arXiv，不升格会址。
 - 若干 IEEE / ISPRS JPRS / AAAI / PMLR 正式版当时未能下载或可能需订阅，已改用对应 arXiv 或会议开放 PDF，详见 `missing-pdfs.md`。
+- SkyMoE 已收入开放获取全文。打包文件是 arXiv 预印本 2512.02517（`pdfs/2026-arXiv-SkyMoE-Liu.pdf`），不是 AAAI 出版社付费墙正式版；OJS 37653 的正式 PDF 仍未打包。
 
-## 未收入全文的 4 篇
+## 未收入全文的 3 篇
 
 | 论文 | 说明 | 页面 |
 | --- | --- | --- |
 | ExpertsRS（Sun et al.，*Big Earth Data*, 2026） | Taylor & Francis 可能需订阅，未发现开放预印本 | [Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/20964471.2025.2600178) |
-| SkyMoE | AAAI OJS 下载接口当时只返回 HTML，未发现对应 arXiv | [AAAI OJS 37653](https://ojs.aaai.org/index.php/AAAI/article/view/37653) |
 | SPEXT（NeurIPS 2026） | 当时仅有海报页，无论文 PDF / arXiv | [NeurIPS poster](https://neurips.cc/virtual/2026/poster/153724) |
 | RS-LLaVA（Bazi et al.，*Remote Sensing* 16(9):1477, 2024） | MDPI 一般为开放获取，当时请求 PDF 返回 403 | [MDPI](https://www.mdpi.com/2072-4292/16/9/1477) |
 

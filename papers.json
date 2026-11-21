@@ -5,10 +5,9 @@
   "policy": "Authoritative paper list is the handoff. No extra papers added. Venue upgrades mentioned only in arXiv comments are noted and not treated as independently re-verified proceedings pages.",
   "counts": {
     "papers_in_catalog": 61,
-    "pdfs_packed": 57,
+    "pdfs_packed": 58,
     "missing_oa_pdf": [
       "expertsrs",
-      "skymoe",
       "spext",
       "rs-llava"
     ]
@@ -1101,15 +1100,17 @@
       "id": "skymoe",
       "section": "A",
       "title": "SkyMoE: A Vision-Language Foundation Model for Enhancing Geospatial Interpretation with Mixture of Experts",
-      "authors_short": "见 AAAI 页",
+      "authors_short": "Liu, Fu, Sun, et al.",
       "year": 2026,
       "venue": "AAAI（OJS 37653）；届次以期刊页为准",
       "venue_status": "accepted_year_uncertain",
-      "arxiv": null,
+      "arxiv": "2512.02517",
       "pdf_urls": [
-        "https://ojs.aaai.org/index.php/AAAI/article/view/37653"
+        "https://ojs.aaai.org/index.php/AAAI/article/view/37653",
+        "https://arxiv.org/abs/2512.02517",
+        "https://arxiv.org/pdf/2512.02517"
       ],
-      "local_pdf": null,
+      "local_pdf": "pdfs/2026-arXiv-SkyMoE-Liu.pdf",
       "code": null,
       "project": null,
       "datasets": [
@@ -1119,8 +1120,9 @@
         "RS-VLM",
         "foundation model"
       ],
-      "summary_zh": "混合专家增强多任务、多粒度地学解释。本环境未获得开放 PDF，也未发现 arXiv。",
-      "oa_pdf": false
+      "summary_zh": "混合专家增强多任务、多粒度地学解释。本包文件为 arXiv 预印本 2512.02517，不是 AAAI 出版社正式版；OJS 正式 PDF 仍未打包。",
+      "oa_pdf": true,
+      "pdf_bytes": 7210610
     },
     {
       "id": "lisat",

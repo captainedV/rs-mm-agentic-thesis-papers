@@ -8,7 +8,6 @@
 | 论文 | 会址 | 原因 | 可访问页面 |
 |---|---|---|---|
 | An LLM-based multi-agent system for remote sensing analysis（ExpertsRS），Sun et al. | Big Earth Data, 2026 | Taylor & Francis 可能需订阅；未发现开放预印本 PDF | https://www.tandfonline.com/doi/full/10.1080/20964471.2025.2600178 |
-| SkyMoE: A Vision-Language Foundation Model… | AAAI（OJS 37653；届次以期刊页为准） | 本环境请求 OJS download 只得到 HTML；未发现对应 arXiv | https://ojs.aaai.org/index.php/AAAI/article/view/37653 |
 | SPEXT: A Decoupled Multi-Spectral Foundation Model… | NeurIPS 2026 | 交接清单仅给出海报页，无论文 PDF 或 arXiv | https://neurips.cc/virtual/2026/poster/153724 |
 | RS-LLaVA，Bazi et al. | *Remote Sensing* 16(9):1477, 2024 | MDPI 页面一般为 OA，但本环境请求 PDF 返回 403 | https://www.mdpi.com/2072-4292/16/9/1477 |
 
@@ -24,6 +23,7 @@
 - RSVQA：IEEE TGRS 2020 正式版可能需订阅；已打包预印本 arXiv:2003.07333。
 - GeoPixel：ICML 2025 正式入口为 PMLR https://proceedings.mlr.press/v267/shabbir25a.html ；本环境未能下载 PMLR PDF，已改用 arXiv:2501.13925。
 - RemoteReasoner、EarthVQA：AAAI 正式页可核会址，OJS download 接口返回 HTML；已改用对应 arXiv。
+- SkyMoE：AAAI OJS 37653 正式 PDF 仍未打包。已打包的是 arXiv 预印本 2512.02517（`pdfs/2026-arXiv-SkyMoE-Liu.pdf`），不是出版社付费墙正式版。arXiv：https://arxiv.org/abs/2512.02517 ；AAAI 页：https://ojs.aaai.org/index.php/AAAI/article/view/37653
 
 ## 撤稿（不作为录用论文引用，亦未单独追求 PDF）
 
