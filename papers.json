@@ -5,11 +5,10 @@
   "policy": "Authoritative paper list is the handoff. No extra papers added. Venue upgrades mentioned only in arXiv comments are noted and not treated as independently re-verified proceedings pages.",
   "counts": {
     "papers_in_catalog": 61,
-    "pdfs_packed": 58,
+    "pdfs_packed": 59,
     "missing_oa_pdf": [
       "expertsrs",
-      "spext",
-      "rs-llava"
+      "spext"
     ]
   },
   "withdrawn_or_do_not_cite_as_accepted": [
@@ -1668,9 +1667,10 @@
       "venue_status": "accepted",
       "arxiv": null,
       "pdf_urls": [
-        "https://www.mdpi.com/2072-4292/16/9/1477"
+        "https://www.mdpi.com/2072-4292/16/9/1477",
+        "https://doi.org/10.3390/rs16091477"
       ],
-      "local_pdf": null,
+      "local_pdf": "pdfs/2024-RemoteSensing-RS-LLaVA-Bazi.pdf",
       "code": null,
       "project": null,
       "datasets": [
@@ -1679,8 +1679,9 @@
       "themes": [
         "RS-VLM"
       ],
-      "summary_zh": "联合字幕与问答的 RS LLaVA 变体。MDPI 页一般为 OA，本环境 PDF 下载 403，未打包。",
-      "oa_pdf": false
+      "summary_zh": "联合字幕与问答的 RS LLaVA 变体。已收入 MDPI 官方开放获取 PDF（CC BY 4.0）。",
+      "oa_pdf": true,
+      "pdf_bytes": 3716230
     },
     {
       "id": "skysensegpt",

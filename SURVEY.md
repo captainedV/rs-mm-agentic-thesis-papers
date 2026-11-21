@@ -18,8 +18,8 @@
 ## 0.1 本包交付统计
 
 - 交接清单中的文献条目（含附录、工作坊、预印本与会址未确认工作，不含已撤稿不引用的 GeoAssistant）：见下文第 3 节表格。
-- 已打包开放获取 PDF：**58** 篇，合计约 **474.7 MB**。
-- 未能打包全文：**3** 篇（ExpertsRS、SPEXT、RS-LLaVA），详见 0.2 节。
+- 已打包开放获取 PDF：**59** 篇，合计约 **478.4 MB**。
+- 未能打包全文：**2** 篇（ExpertsRS、SPEXT），详见 0.2 节。
 - 压缩包：`/workspace/rs-mm-agentic-survey/papers-pdfs.zip`
 
 ## 0.2 未能打包的开放/正式 PDF（见 missing-pdfs.md）
@@ -28,9 +28,8 @@
 |---|---|---|
 | ExpertsRS (Sun et al., *Big Earth Data* 2026) | Taylor & Francis 可能需订阅，未发现开放预印本 | https://www.tandfonline.com/doi/full/10.1080/20964471.2025.2600178 |
 | SPEXT (NeurIPS 2026) | 交接清单仅有海报页，未给出论文 PDF 或 arXiv | https://neurips.cc/virtual/2026/poster/153724 |
-| RS-LLaVA (MDPI *Remote Sensing* 16(9):1477) | 期刊页一般为开放获取，但本环境请求 PDF 返回 403 | https://www.mdpi.com/2072-4292/16/9/1477 |
 
-另：若干 IEEE TGRS / TPAMI / ISPRS JPRS / IGARSS 正式出版 PDF 可能需订阅。凡有 arXiv 或 CVF/NeurIPS/ICLR/ACL/ISPRS Archives 开放文本者，本包已收录开放版本，不下载付费墙全文。PMLR 上 GeoPixel 的官方 PDF 本环境下载失败，已改用 arXiv:2501.13925。AAAI 正式页（RemoteReasoner、EarthVQA、SkyMoE）同样未能下到出版社 PDF，已改用对应 arXiv。SkyMoE 打包文件为 arXiv 预印本 2512.02517，不是 AAAI 出版社正式版。
+另：若干 IEEE TGRS / TPAMI / ISPRS JPRS / IGARSS 正式出版 PDF 可能需订阅。凡有 arXiv 或 CVF/NeurIPS/ICLR/ACL/ISPRS Archives 开放文本者，本包已收录开放版本，不下载付费墙全文。PMLR 上 GeoPixel 的官方 PDF 本环境下载失败，已改用 arXiv:2501.13925。AAAI 正式页（RemoteReasoner、EarthVQA、SkyMoE）同样未能下到出版社 PDF，已改用对应 arXiv。SkyMoE 打包文件为 arXiv 预印本 2512.02517，不是 AAAI 出版社正式版。RS-LLaVA 已打包 MDPI 官方开放获取 PDF（*Remote Sensing* 16(9):1477，CC BY 4.0），见 `pdfs/2024-RemoteSensing-RS-LLaVA-Bazi.pdf`。
 
 ## 0.3 核心数据集与基准（交接清单 + 已核官方页）
 

@@ -9,7 +9,10 @@
 |---|---|---|---|
 | An LLM-based multi-agent system for remote sensing analysis（ExpertsRS），Sun et al. | Big Earth Data, 2026 | Taylor & Francis 可能需订阅；未发现开放预印本 PDF | https://www.tandfonline.com/doi/full/10.1080/20964471.2025.2600178 |
 | SPEXT: A Decoupled Multi-Spectral Foundation Model… | NeurIPS 2026 | 交接清单仅给出海报页，无论文 PDF 或 arXiv | https://neurips.cc/virtual/2026/poster/153724 |
-| RS-LLaVA，Bazi et al. | *Remote Sensing* 16(9):1477, 2024 | MDPI 页面一般为 OA，但本环境请求 PDF 返回 403 | https://www.mdpi.com/2072-4292/16/9/1477 |
+
+## 已补入的官方开放获取 PDF
+
+RS-LLaVA（Bazi et al.，*Remote Sensing* 16(9):1477）的 MDPI 官方开放获取 PDF 已打包为 `pdfs/2024-RemoteSensing-RS-LLaVA-Bazi.pdf`（CC BY 4.0）。文章页：https://www.mdpi.com/2072-4292/16/9/1477 ；DOI：https://doi.org/10.3390/rs16091477
 
 ## 已用开放预印本/会议 OA 替代、未打包出版社付费墙正式版
 
